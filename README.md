@@ -25,7 +25,7 @@ grpmlli
 1. /etc/aliasesに次のように指定
 
   ```sh
-  # Tweet
+  # ML 
   [ 投稿用メールアカウント ]: "| /[grpml.rb格納ディレクトリ]/grpml.rb"
   ```
 1. newaliases コマンドを実行
