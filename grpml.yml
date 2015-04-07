@@ -1,0 +1,9 @@
+ok_addrs:
+ - tweet1@example.jp
+ - tweet2@example.jp
+ - tweet3@example.jp
+envelope_from_addr:
+ envelope_from@example.jp
+reply_to_addr:
+ reply_to@example.jp
+
