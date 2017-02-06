@@ -67,7 +67,9 @@ end
 mail = Mail.new(STDIN.read)
 
 if OK_ADDRS.include?(mail.from.first) then
-    subject = mail.subject.encode('UTF-8')
+    sbj = mail.subject
+    sbj   ||= ""
+    subject = sbj.encode('UTF-8')
     body    = get_body(mail)
 
     if body then
